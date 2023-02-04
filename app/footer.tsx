@@ -1,3 +1,5 @@
+import Link from "next/link";
+
 export default function Footer() {
     return (
         <>
@@ -14,7 +16,7 @@ export default function Footer() {
                         </a>
                         <p className="mt-2 text-sm text-gray-500">Certified Web 3.0 and Metaverse Developer: A Nationwide Program in Karachi, Lahore, Islamabad, and Peshawar</p>
                     </div>
-                    <div className="flex-grow flex flex-wrap md:pl-20 -mb-10 md:mt-0 mt-10 md:text-left text-center">
+                    <div className="flex-grow flex flex-wrap justify-center md:pl-20 -mb-10 md:mt-0 mt-10 md:text-left text-center">
                         <div className="lg:w-1/4 md:w-1/2 w-full px-4">
                             <h2 className="title-font font-medium text-gray-900 tracking-widest text-sm mb-3">Important Links:</h2>
                             <nav className="list-none mb-10">
@@ -39,53 +41,28 @@ export default function Footer() {
                             </nav>
                         </div>
                         <div className="lg:w-1/4 md:w-1/2 w-full px-4">
-                            <h2 className="title-font font-medium text-gray-900 tracking-widest text-sm mb-3">CATEGORIES</h2>
+                            <h2 className="title-font font-medium text-gray-900 tracking-widest text-sm mb-3">Blogs</h2>
                             <nav className="list-none mb-10">
                                 <li>
-                                    <a className="text-gray-600 hover:text-gray-800">First Link</a>
+                                    <Link className="text-gray-600 hover:text-gray-800" href="https://content.techgig.com/hiring/top-5-metaverse-jobs-that-will-rule-the-future-of-tech-industry/articleshow/87581325.cms">1. Top 5 'Metaverse' jobs that will rule the future of tech industry</Link>
                                 </li>
                                 <li>
-                                    <a className="text-gray-600 hover:text-gray-800">Second Link</a>
+                                    <Link className="text-gray-600 hover:text-gray-800" href="https://web3.career/web3-salaries/blockchain-developer ">2. Blockchain Developer Salary - Jun 2022</Link>
                                 </li>
                                 <li>
-                                    <a className="text-gray-600 hover:text-gray-800">Third Link</a>
+                                    <Link className="text-gray-600 hover:text-gray-800" href="https://thedefiant.io/web3-soaring-salaries/">3. Web3 Salaries Soar to $750,000 for Rank-and-File Devs</Link>
                                 </li>
-                                <li>
-                                    <a className="text-gray-600 hover:text-gray-800">Fourth Link</a>
-                                </li>
+
                             </nav>
                         </div>
                         <div className="lg:w-1/4 md:w-1/2 w-full px-4">
-                            <h2 className="title-font font-medium text-gray-900 tracking-widest text-sm mb-3">CATEGORIES</h2>
+                            <h2 className="title-font font-medium text-gray-900 tracking-widest text-sm mb-3">Blogs</h2>
                             <nav className="list-none mb-10">
                                 <li>
-                                    <a className="text-gray-600 hover:text-gray-800">First Link</a>
+                                    <Link className="text-gray-600 hover:text-gray-800" href="https://newzoo.com/insights/trend-reports/newzoo-report-on-metaverse-blockchain-gaming-nft-2022">4. The Metaverse, Blockchain Gaming, and NFTs: Navigating the Internet’s Uncharted Waters</Link>
                                 </li>
                                 <li>
-                                    <a className="text-gray-600 hover:text-gray-800">Second Link</a>
-                                </li>
-                                <li>
-                                    <a className="text-gray-600 hover:text-gray-800">Third Link</a>
-                                </li>
-                                <li>
-                                    <a className="text-gray-600 hover:text-gray-800">Fourth Link</a>
-                                </li>
-                            </nav>
-                        </div>
-                        <div className="lg:w-1/4 md:w-1/2 w-full px-4">
-                            <h2 className="title-font font-medium text-gray-900 tracking-widest text-sm mb-3">CATEGORIES</h2>
-                            <nav className="list-none mb-10">
-                                <li>
-                                    <a className="text-gray-600 hover:text-gray-800">First Link</a>
-                                </li>
-                                <li>
-                                    <a className="text-gray-600 hover:text-gray-800">Second Link</a>
-                                </li>
-                                <li>
-                                    <a className="text-gray-600 hover:text-gray-800">Third Link</a>
-                                </li>
-                                <li>
-                                    <a className="text-gray-600 hover:text-gray-800">Fourth Link</a>
+                                    <Link className="text-gray-600 hover:text-blue-1200" href="https://www.blockchain-council.org/metaverse/how-to-become-metaverse-developer/">5. How To Become Metaverse Developer: Scope, Skills, and Salary</Link>
                                 </li>
                             </nav>
                         </div>
@@ -93,8 +70,8 @@ export default function Footer() {
                 </div>
                 <div className="bg-gray-100">
                     <div className="container mx-auto py-4 px-5 flex flex-wrap flex-col sm:flex-row">
-                        <p className="text-gray-500 text-sm text-center sm:text-left">© 2020 Tailblocks —
-                            <a href="https://twitter.com/knyttneve" rel="noopener noreferrer" className="text-gray-600 ml-1" target="_blank">@knyttneve</a>
+                        <p className="text-gray-500 text-sm text-center sm:text-left">© Panaverse —
+                            <Link href="https://panaverse.co" rel="noopener noreferrer" className="text-gray-600 ml-1" target="_blank">@Panaverse</Link>
                         </p>
                         <span className="inline-flex sm:ml-auto sm:mt-0 mt-2 justify-center sm:justify-start">
                             <a className="text-gray-500">
