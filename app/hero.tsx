@@ -1,3 +1,5 @@
+import Link from "next/link";
+
 export default function Hero() {
     return (
         <>
@@ -31,36 +33,36 @@ export default function Hero() {
                             <div className="h-full bg-gray-100 bg-opacity-75 px-8 pt-16 pb-24 rounded-lg overflow-hidden text-center relative">
                                 <h1 className="title-font sm:text-2xl text-xl font-medium text-gray-900 mb-3">Quarter I (Core)</h1>
                                 <p className="leading-relaxed mb-3">CS-101: Object-Oriented Programming using TypeScript</p>
-                                <a className="text-indigo-500 inline-flex items-center">Learn More
+                                <Link href="/core" className="text-indigo-500 inline-flex items-center">Learn More
                                     <svg className="w-4 h-4 ml-2" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round">
                                         <path d="M5 12h14"></path>
                                         <path d="M12 5l7 7-7 7"></path>
                                     </svg>
-                                </a>
+                                </Link>
                             </div>
                         </div>
                         <div className="p-4 lg:w-1/3">
                             <div className="h-full bg-gray-100 bg-opacity-75 px-8 pt-16 pb-24 rounded-lg overflow-hidden text-center relative">
                                 <h1 className="title-font sm:text-2xl text-xl font-medium text-gray-900 mb-3">Quarter II (Core)</h1>
                                 <p className="leading-relaxed mb-3">W2-201: Developing Planet-Scale Web 2.0 Serverless Cloud Cloud Apps and APIs using Next.js 13 and Cloud Development Kit (CDK) for Terraform</p>
-                                <a className="text-indigo-500 inline-flex items-center">Learn More
+                                <Link href="/core" className="text-indigo-500 inline-flex items-center">Learn More
                                     <svg className="w-4 h-4 ml-2" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round">
                                         <path d="M5 12h14"></path>
                                         <path d="M12 5l7 7-7 7"></path>
                                     </svg>
-                                </a>
+                                </Link>
                             </div>
                         </div>
                         <div className="p-4 lg:w-1/3">
                             <div className="h-full bg-gray-100 bg-opacity-75 px-8 pt-16 pb-24 rounded-lg overflow-hidden text-center relative">
                                 <h1 className="title-font sm:text-2xl text-xl font-medium text-gray-900 mb-3">Quarter III (Core)</h1>
                                 <p className="leading-relaxed mb-3">$-101: Dollar Making Bootcamp - Full-Stack Template and API Product Development</p>
-                                <a className="text-indigo-500 inline-flex items-center">Learn More
+                                <Link href="/core" className="text-indigo-500 inline-flex items-center">Learn More
                                     <svg className="w-4 h-4 ml-2" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round">
                                         <path d="M5 12h14"></path>
                                         <path d="M12 5l7 7-7 7"></path>
                                     </svg>
-                                </a>
+                                </Link>
                             </div>
                         </div>
                     </div>
@@ -76,36 +78,36 @@ export default function Hero() {
                             <div className="h-full bg-gray-100 bg-opacity-75 px-8 pt-16 pb-24 rounded-lg overflow-hidden text-center relative">
                                 <h1 className="title-font sm:text-2xl text-xl font-medium text-gray-900 mb-3">I. Web 3.0 (Blockchain) and Metaverse Specialization</h1>
                                 <p className="leading-relaxed mb-3">This Web 3.0 and Metaverse specialization focuses on developing full-stack Web 3.0 and Metaverse experiences for the next generation of the internet by specializing in building worlds that merge the best of cutting-edge decentralized distributed blockchains with 3D metaverse client experiences.</p>
-                                <a className="text-indigo-500 inline-flex items-center">Learn More
+                                <Link href="/specialized" className="text-indigo-500 inline-flex items-center">Learn More
                                     <svg className="w-4 h-4 ml-2" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round">
                                         <path d="M5 12h14"></path>
                                         <path d="M12 5l7 7-7 7"></path>
                                     </svg>
-                                </a>
+                                </Link>
                             </div>
                         </div>
                         <div className="p-4 lg:w-1/3">
                             <div className="h-full bg-gray-100 bg-opacity-75 px-8 pt-16 pb-24 rounded-lg overflow-hidden text-center relative">
                                 <h1 className="title-font sm:text-2xl text-xl font-medium text-gray-900 mb-3">II. Artificial Intelligence (AI) and Deep Learning Specialization</h1>
                                 <p className="leading-relaxed mb-3">The AI and Deep Learning specialization focuses on building and deploying intelligent APIs using OpenAI models and building custom Deep Learning Tensorflow models.</p>
-                                <a className="text-indigo-500 inline-flex items-center">Learn More
+                                <Link href="/specialized" className="text-indigo-500 inline-flex items-center">Learn More
                                     <svg className="w-4 h-4 ml-2" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round">
                                         <path d="M5 12h14"></path>
                                         <path d="M12 5l7 7-7 7"></path>
                                     </svg>
-                                </a>
+                                </Link>
                             </div>
                         </div>
                         <div className="p-4 lg:w-1/3">
                             <div className="h-full bg-gray-100 bg-opacity-75 px-8 pt-16 pb-24 rounded-lg overflow-hidden text-center relative">
                                 <h1 className="title-font sm:text-2xl text-xl font-medium text-gray-900 mb-3">III. Cloud-Native Computing Specialization</h1>
                                 <p className="leading-relaxed mb-3">The Cloud-Native Computing Specialization focuses on Containers, Kubernetes, and CDK for Kubernetes. </p>
-                                <a className="text-indigo-500 inline-flex items-center">Learn More
+                                <Link href="/specialized" className="text-indigo-500 inline-flex items-center">Learn More
                                     <svg className="w-4 h-4 ml-2" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round">
                                         <path d="M5 12h14"></path>
                                         <path d="M12 5l7 7-7 7"></path>
                                     </svg>
-                                </a>
+                                </Link>
                             </div>
                         </div>
                     </div>
@@ -118,36 +120,36 @@ export default function Hero() {
                             <div className="h-full bg-gray-100 bg-opacity-75 px-8 pt-16 pb-24 rounded-lg overflow-hidden text-center relative">
                                 <h1 className="title-font sm:text-2xl text-xl font-medium text-gray-900 mb-3">IV. Ambient Computing and IoT Specialization</h1>
                                 <p className="leading-relaxed mb-3">The Ambient Computing and IoT Specialization focuses on building Smart Homes, Offices, Factories, and Cities using Voice computing, Matter Protocol, and Embedded Devices.</p>
-                                <a className="text-indigo-500 inline-flex items-center">Learn More
+                                <Link href="/specialized" className="text-indigo-500 inline-flex items-center">Learn More
                                     <svg className="w-4 h-4 ml-2" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round">
                                         <path d="M5 12h14"></path>
                                         <path d="M12 5l7 7-7 7"></path>
                                     </svg>
-                                </a>
+                                </Link>
                             </div>
                         </div>
                         <div className="p-4 lg:w-1/3">
                             <div className="h-full bg-gray-100 bg-opacity-75 px-8 pt-16 pb-24 rounded-lg overflow-hidden text-center relative">
                                 <h1 className="title-font sm:text-2xl text-xl font-medium text-gray-900 mb-3">V. Genomics and Bioinformatics Specialization</h1>
                                 <p className="leading-relaxed mb-3">Genomics is the study of the total genetic makeup of individual organisms, and how this genetic information is structured, functions, and has evolved; bioinformatics encompasses a diverse range of analytical methods and tools applied to genomic data. This Specialization focuses on performing complex bioinformatics analysis using the most essential Python libraries and applications.</p>
-                                <a className="text-indigo-500 inline-flex items-center">Learn More
+                                <Link href="/specialized" className="text-indigo-500 inline-flex items-center">Learn More
                                     <svg className="w-4 h-4 ml-2" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round">
                                         <path d="M5 12h14"></path>
                                         <path d="M12 5l7 7-7 7"></path>
                                     </svg>
-                                </a>
+                                </Link>
                             </div>
                         </div>
                         <div className="p-4 lg:w-1/3">
                             <div className="h-full bg-gray-100 bg-opacity-75 px-8 pt-16 pb-24 rounded-lg overflow-hidden text-center relative">
                                 <h1 className="title-font sm:text-2xl text-xl font-medium text-gray-900 mb-3">VI. Network Programmability and Automation Specialization</h1>
                                 <p className="leading-relaxed mb-3">More than ever, network engineers are finding it challenging to complete their duties entirely manually. Network automation is now crucial due to new protocols, technologies, delivery models, and the requirement for enterprises to become more adaptable and agile. This course teaches network engineers how to automate systems with code using a variety of technologies and tools, including Linux, Python, APIs, and Git.</p>
-                                <a className="text-indigo-500 inline-flex items-center">Learn More
+                                <Link href="/specialized" className="text-indigo-500 inline-flex items-center">Learn More
                                     <svg className="w-4 h-4 ml-2" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round">
                                         <path d="M5 12h14"></path>
                                         <path d="M12 5l7 7-7 7"></path>
                                     </svg>
-                                </a>
+                                </Link>
                             </div>
                         </div>
                     </div>
@@ -174,7 +176,7 @@ export default function Hero() {
 
 
 
-            
+
         </>
     );
 }
